@@ -1,0 +1,41 @@
+body{
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: lightslategrey;
+}
+.mb-3{
+    margin-top: 20px;
+}
+.button input:first-of-type{
+    margin-right: 50px;
+}
+.button{
+    text-align: center;
+}
+.error_message{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(221, 120, 137);
+}
+.a{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20pt;
+    color: lightslategray;
+    text-align: justify; 
+    text-align-last: left;
+}
+
+p{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+textarea{
+    margin-top: 5px;
+}
