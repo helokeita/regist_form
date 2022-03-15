@@ -1,0 +1,62 @@
+﻿# A5:ER FORMAT:16
+# A5:ER ENCODING:UTF8
+# A5:ER Mk-1 Copyright © 2007 m.matsubara
+# A5:SQL Mk-2 Version 2.17.0 Copyright © 1997 - 2022 m.matsubara
+#  https://a5m2.mmatsubara.com
+
+[Manager]
+ProjectName=consult
+Author=
+MaxEntityRowShow=1000
+ReadOnlyRecommend=0
+Page=Main
+PageInfo="Main",3,"A3Landscape",$FFFFFF
+LogicalView=1
+DecodeDomain=0
+ViewModePageIndividually=1
+ViewMode=3
+ViewFormat=0
+UseNondependenceDashLine=0
+FontName=Tahoma
+FontSize=6
+PaperSize=A4Landscape
+HeaderLeft=
+HeaderCenter=
+HeaderRight=
+FooterLeft=
+FooterCenter=
+FooterRight=
+ShowPageoutRelation=1
+RDBMSType=5
+RDBMSTypeName=MySQL
+DefaultPkName=%0:s_PKC
+DefaultPkIndexName=%0:s_PKI
+DefaultIndexName=%0:s_IX%1:d
+DefaultFkName=%0:s_FK%1:d
+SqlSeparator=0
+UpperCaseKeyword=0
+ShowTag=1
+ShowCommonAttributes=0
+BugFixEntityWidth=1
+
+[Entity]
+PName=NEW_ENTITY1
+LName=consult
+Comment=
+TableOption=
+Page=Main
+Left=550
+Top=400
+Field="ご相談ID","id","int(11)","NOT NULL",0,"","ユーザから登録されたご相談の識別子id",$000000FF,"auto_increment"
+Field="ニックネーム","nickname","varchar(32)","NOT NULL",,"","任意の名前",$FFFFFFFF,""
+Field="メールアドレス","mail","varchar(255)","NOT NULL",,"","メールアドレス",$FFFFFFFF,""
+Field="ご相談項目","item","int",,,"","ご相談の項目(数字で判定)",$FFFFFFFF,""
+Field="ご相談内容","consult","text","NOT NULL",,"","ご内容",$FFFFFFFF,""
+Field="登録日時","created_at","timestamp",,,"CURRENT_TIMESTAMP","登録された日時",$FFFFFFFF,""
+Field="更新日時","updated_at","timestamp",,,"CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP","更新された日時",$FFFFFFFF,""
+EffectMode=None
+Color=$000000
+BkColor=$FFFFFF
+ModifiedDateTime=20220303235832
+Position="Main",550,400,471,201
+ZOrder=1
